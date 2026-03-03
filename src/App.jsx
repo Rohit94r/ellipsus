@@ -21,58 +21,58 @@ function App() {
 
       <main>
         <section className="hero">
-          <div className="hero-copy">
-            <p className="pill">Made for creative writers</p>
-            <h1>
-              Collaborative writing
-              <br />
-              for bold imaginations.
-            </h1>
-            <p className="hero-sub">
-              Bring drafts, edits, and discussions together in one focused
-              workspace—built for world‑builders, novelists, and storytellers.
-            </p>
-            <div className="hero-cta">
-              <button className="btn primary">Join for free</button>
-              <button className="btn ghost">Take a quick tour</button>
-            </div>
-            <p className="hero-footnote">
-              Trusted by thousands of writers. Your words stay yours.
-            </p>
-          </div>
-
-          <div className="hero-visual">
-            <div className="hero-orbit">
-              <div className="hero-device-layer back" />
-              <div className="hero-device-layer middle" />
-              <div className="hero-device-layer front">
-                <div className="device-header">
-                  <span className="device-dot red" />
-                  <span className="device-dot yellow" />
-                  <span className="device-dot green" />
-                </div>
-                <div className="device-body">
-                  <div className="device-sidebar">
-                    <div className="device-pill" />
-                    <div className="device-item" />
-                    <div className="device-item" />
-                    <div className="device-item" />
-                  </div>
-                  <div className="device-main">
-                    <div className="device-line wide" />
-                    <div className="device-line" />
-                    <div className="device-line" />
-                    <div className="device-bubbles">
-                      <div className="bubble left" />
-                      <div className="bubble right" />
-                    </div>
-                  </div>
-                </div>
+          <div className="hero-inner">
+            <div className="hero-copy">
+              <p className="pill">
+                New · Live collaborative canvas
+              </p>
+              <h1>
+                Turn scattered notes
+                <br />
+                into living storyboards.
+              </h1>
+              <p className="hero-sub">
+                Sketch scenes, arrange timelines, and co‑write in real time on a
+                shared canvas that keeps every idea visible.
+              </p>
+              <div className="hero-cta">
+                <button className="btn primary">Start a blank canvas</button>
+                <button className="btn ghost">Browse community boards</button>
               </div>
+              <p className="hero-footnote">
+                No uploads, no exports—just open a link and create together.
+              </p>
             </div>
-            <div className="hero-badge">
-              <span className="badge-pill">No generic AI drafts</span>
-              <span className="badge-text">You stay in control.</span>
+
+            <div className="hero-visual hero-visual--portal" aria-hidden="true">
+              <div className="portal-orbit">
+                <div className="portal-ring outer" />
+                <div className="portal-ring middle" />
+                <div className="portal-ring inner" />
+
+                <div className="portal-card lane lane-1">
+                  <div className="lane-pill" />
+                  <div className="lane-line wide" />
+                  <div className="lane-line" />
+                </div>
+
+                <div className="portal-card lane lane-2">
+                  <div className="lane-pill" />
+                  <div className="lane-line" />
+                  <div className="lane-line wide" />
+                </div>
+
+                <div className="portal-node node-a" />
+                <div className="portal-node node-b" />
+                <div className="portal-node node-c" />
+              </div>
+
+              <div className="hero-badge hero-badge--floating">
+                <span className="badge-pill">Live cursors connected</span>
+                <span className="badge-text">
+                  See every collaborator sketching in real time.
+                </span>
+              </div>
             </div>
           </div>
         </section>
